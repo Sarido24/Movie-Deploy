@@ -1,0 +1,106 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cover {
+    max-width: 70%;
+    margin: auto;
+    background-color: black;
+}
+
+
+
+#headList {
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+
+.button-navbar {
+    color: orange;
+    margin-left: 20px;
+}
+
+.button-navbar:hover {
+    color: rgb(255, 254, 254);
+}
+
+.button-navbar :active{
+    color: rgb(255, 254, 254);
+    text-underline-position: inherit ;
+}
+
+.carousel-image {
+    height: 400px;
+}
+
+.movieTitle {
+    position: absolute ;
+    color: white;
+    top: 10%;
+    left: 10%;
+}
+
+.rating {
+    position: absolute;
+    color: orange;
+    top: 20%;
+    left: 10%;
+}
+
+
+
+.carousel-image-container {
+    position: relative;
+  }
+
+.carousel-image-container .btn {
+    position: absolute;
+    top: 80%;
+    left: 80%;;
+}
+
+.buttonBack {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 100%;
+    }
+    .carousel-image {
+        height: 100%;
+    }
+    .carousel-image-container .btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;;
+        transform: translate(-50%, -50%);
+      }
+      .button-navbar {
+        color: orange;
+        margin-left: 0px;
+    }
+   
+}
